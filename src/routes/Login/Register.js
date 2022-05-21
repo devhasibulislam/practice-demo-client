@@ -62,7 +62,7 @@ const Register = () => {
                 };
 
                 // store in our db
-                const urlUsr = `http://localhost:5000/user`;
+                const urlUsr = `https://rocky-cove-58715.herokuapp.com/user`;
                 const postUser = async () => {
                     const request = await fetch(urlUsr, {
                         method: "POST",
